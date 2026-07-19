@@ -1,0 +1,30 @@
+[
+  {
+    "title": "vidange",
+    "categoryId": "car",
+    "startDate": "2026-06-19",
+    "nextDate": "2027-06-19",
+    "description": "filtres changés",
+    "frequency": {
+      "unit": "year",
+      "interval": 1
+    },
+    "id": "1784480895296",
+    "createdAt": "2026-07-19T17:08:15.297Z",
+    "updatedAt": "2026-07-19T17:29:36.091Z"
+  },
+  {
+    "title": "vaccin",
+    "categoryId": "pets",
+    "startDate": "2026-07-20",
+    "nextDate": "2026-07-20",
+    "description": "",
+    "frequency": {
+      "unit": "once",
+      "interval": 1
+    },
+    "id": "1784481791465",
+    "createdAt": "2026-07-19T17:23:11.467Z",
+    "updatedAt": "2026-07-19T17:33:44.741Z"
+  }
+]

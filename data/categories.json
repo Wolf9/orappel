@@ -1,0 +1,44 @@
+[
+  {
+    "id": "car",
+    "name": "Voiture",
+    "color": "#ef4444",
+    "icon": "Car"
+  },
+  {
+    "id": "home",
+    "name": "Maison",
+    "color": "#f97316",
+    "icon": "Home"
+  },
+  {
+    "id": "pets",
+    "name": "Animaux",
+    "color": "#eab308",
+    "icon": "Dog"
+  },
+  {
+    "id": "admin",
+    "name": "Administratif",
+    "color": "#3b82f6",
+    "icon": "FileText"
+  },
+  {
+    "name": "lessive chien",
+    "color": "#0ea5e9",
+    "icon": "Grid",
+    "id": "1784480936031"
+  },
+  {
+    "name": "velo",
+    "color": "#c30de7",
+    "icon": "Grid",
+    "id": "1784482474065"
+  },
+  {
+    "name": "santé",
+    "color": "#c30de7",
+    "icon": "Grid",
+    "id": "1784482497183"
+  }
+]
