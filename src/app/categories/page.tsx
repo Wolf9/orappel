@@ -30,6 +30,7 @@ export default function CategoriesPage() {
     
     await fetch("/api/categories", {
       method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name: newCatName, color: newCatColor, icon: "Grid" })
     });
     setNewCatName("");

@@ -27,9 +27,6 @@ COPY --from=builder /app/.next/static ./.next/static
 # Créer le dossier pour les données locales (JSON) et donner les droits à l'utilisateur node
 RUN mkdir -p /app/data && chown node:node /app/data
 
-# Passer à l'utilisateur non-root pour des raisons de sécurité
-USER node
-
 # Définir l'environnement
 ENV NODE_ENV=production
 ENV HOST=0.0.0.0

@@ -45,7 +45,11 @@ export default function Home() {
   const upcoming = sortedReminders.filter(r => !isBefore(parseISO(r.nextDate), today) && !isToday(parseISO(r.nextDate)));
 
   const handleComplete = async (id: string) => {
-    const res = await fetch(`/api/reminders/${id}/complete`, { method: "POST", body: JSON.stringify({}) });
+    const res = await fetch(`/api/reminders/${id}/complete`, { 
+      method: "POST", 
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({}) 
+    });
     if (res.ok) {
       // Refresh
       const newReminders = await fetch("/api/reminders").then(r => r.json());

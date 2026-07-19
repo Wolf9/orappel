@@ -48,6 +48,7 @@ export default function AddReminderPage() {
 
     const res = await fetch("/api/reminders", {
       method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(reminder)
     });
 

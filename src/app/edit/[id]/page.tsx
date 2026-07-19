@@ -72,6 +72,7 @@ export default function EditReminderPage() {
 
     const res = await fetch(`/api/reminders/${id}`, {
       method: "PUT",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(reminderUpdate)
     });
 
